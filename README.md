@@ -5,7 +5,7 @@
 </div>
 
 <div align="center">
-  <h1>Wings For Vue</h1>
+  <h1>uIM</h1>
   <div>
 	
   基于 uniapp 的融云即使聊天 Demo 用例
