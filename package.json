@@ -1,0 +1,16 @@
+{
+  "name": "u-im",
+  "version": "0.1.0",
+  "description": "基于 uniapp 的融云即使聊天 Demo 用例",
+  "main": "main.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaivanwong/u-im.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kaivanwong/u-im/issues"
+  },
+  "homepage": "https://github.com/kaivanwong/u-im#readme"
+}
