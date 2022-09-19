@@ -1,21 +1,20 @@
+import Vue from 'vue'
 import App from './App'
 
-// #ifndef VUE3
-import Vue from 'vue'
 Vue.config.productionTip = false
 App.mpType = 'app'
+
+// 引入全局uview-ui
+import uView from 'uview-ui';
+Vue.use(uView);
+
+// 引入vuex
+import store from './store/index.js'
+Vue.prototype.$store = store
+
+// 挂载 app 实例
 const app = new Vue({
-    ...App
+	...store,
+	...App
 })
 app.$mount()
-// #endif
-
-// #ifdef VUE3
-import { createSSRApp } from 'vue'
-export function createApp() {
-  const app = createSSRApp(App)
-  return {
-    app
-  }
-}
-// #endif

@@ -1,7 +1,7 @@
 {
-    "name" : "code",
+    "name" : "u-im",
     "appid" : "__UNI__147037F",
-    "description" : "",
+    "description" : "基于 uniapp 的融云即使聊天 Demo 用例",
     "versionName" : "1.0.0",
     "versionCode" : "100",
     "transformPx" : false,
@@ -68,5 +68,5 @@
     "uniStatistics" : {
         "enable" : false
     },
-    "vueVersion" : "3"
+    "vueVersion" : "2"
 }

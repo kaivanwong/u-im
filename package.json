@@ -8,9 +8,5 @@
     "url": "git+https://github.com/kaivanwong/u-im.git"
   },
   "author": "",
-  "license": "MIT",
-  "bugs": {
-    "url": "https://github.com/kaivanwong/u-im/issues"
-  },
-  "homepage": "https://github.com/kaivanwong/u-im#readme"
+  "license": "MIT"
 }
