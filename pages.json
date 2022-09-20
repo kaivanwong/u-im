@@ -3,16 +3,48 @@
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [{
-		"path": "pages/index/index",
+		"path": "pages/recent/index",
 		"style": {
-			"navigationBarTitleText": "uni-app"
+			"navigationBarTitleText": "最近联系"
+		}
+	}, {
+		"path": "pages/contacts/index",
+		"style": {
+			"navigationBarTitleText": "好友列表"
+		}
+	}, {
+		"path": "pages/mine/index",
+		"style": {
+			"navigationBarTitleText": "我的"
 		}
 	}],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
-		"backgroundColor": "#F8F8F8"
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "uIM",
+		"navigationBarBackgroundColor": "#3C2DCB",
+		"backgroundColor": "#fff"
 	},
-	"uniIdRouter": {}
+	"tabBar": {
+		"color": "#bfbfbf",
+		"selectedColor": "#3C2DCB",
+		"borderStyle": "white",
+		"backgroundColor": "#ffffff",
+		"height": "60px",
+		"fontSize": "10px",
+		"iconWidth": "28px",
+		"spacing": "5px",
+		"list": [{
+			"pagePath": "pages/recent/index",
+			"iconPath": "static/tabbar/recent.png",
+			"selectedIconPath": "static/tabbar/recent-active.png"
+		}, {
+			"pagePath": "pages/contacts/index",
+			"iconPath": "static/tabbar/contacts.png",
+			"selectedIconPath": "static/tabbar/contacts-active.png"
+		}, {
+			"pagePath": "pages/mine/index",
+			"iconPath": "static/tabbar/mine.png",
+			"selectedIconPath": "static/tabbar/mine-active.png"
+		}]
+	}
 }
