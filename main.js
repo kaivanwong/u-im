@@ -17,4 +17,20 @@ const app = new Vue({
 	...store,
 	...App
 })
+
+
+// 以下内容需要在 new Vue() 之后引入注册，因为外部JS文件需要引用vue的实例，即this对象
+
+// 基于uview-ui的http配置
+import {
+	installHttpConfig
+} from '@/config/request.js';
+Vue.use(installHttpConfig, app);
+
+// http接口API全局
+import {
+	installApiModules
+} from '@/api';
+Vue.use(installApiModules, app);
+
 app.$mount()
