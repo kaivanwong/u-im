@@ -6,7 +6,7 @@ import RCIMIWEngine from '@/uni_modules/RongCloud-IMWrapper-V2/js_sdk/RCIMEngine
 
 var engine = null;
 RCIMIWEngine.create('n19jmcy5nbx49', {}).then(res => {
-	console.log('初始化引擎res---', res);
+	// console.log('初始化引擎res---', JSON.stringify(res));
 	engine = res;
 });
 

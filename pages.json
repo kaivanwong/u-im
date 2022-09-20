@@ -3,26 +3,15 @@
 		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
 	},
 	"pages": [{
-		"path": "pages/recent/index",
-		"style": {
-			"navigationBarTitleText": "最近联系"
-		}
+		"path": "pages/recent/index"
 	}, {
-		"path": "pages/contacts/index",
-		"style": {
-			"navigationBarTitleText": "好友列表"
-		}
+		"path": "pages/contacts/index"
 	}, {
-		"path": "pages/mine/index",
-		"style": {
-			"navigationBarTitleText": "我的"
-		}
+		"path": "pages/mine/index"
 	}],
 	"globalStyle": {
-		"navigationBarTextStyle": "white",
-		"navigationBarTitleText": "uIM",
-		"navigationBarBackgroundColor": "#3C2DCB",
-		"backgroundColor": "#fff"
+		"navigationStyle": "custom",
+		"backgroundColor": "#3C2DCB"
 	},
 	"tabBar": {
 		"color": "#bfbfbf",
