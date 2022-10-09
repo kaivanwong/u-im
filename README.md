@@ -91,6 +91,6 @@ let code = await engine.connect(
 
  - 使用HBuilderX2.7.14以下版本，如果同一插件且同一appid下购买并绑定了多个包名，提交云打包界面提示包名绑定不一致时，需要在HBuilderX项目中manifest.json->“App原生插件配置”->”云端插件“列表中删除该插件重新选择。
 
-### 开源协议
+### 🧣 开源协议
 
 [MIT licensed](./LICENSE) © 2022-PRESENT Kaivan Wong
