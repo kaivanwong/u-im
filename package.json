@@ -1,12 +1,15 @@
 {
-  "name": "u-im",
-  "version": "0.1.0",
-  "description": "基于 uniapp 的融云即时聊天 Demo 用例",
-  "main": "main.js",
+  "name": "@wingscloud/template-talks",
+  "version": "0.0.0",
+  "description": "【前端模板】即时通讯跨端 App，基于 Uniapp + uView UI 开发。模板基于成熟的产品设计及 UI 设计，同时提供聊天窗口、通讯录、朋友圈、个人中心等 8 张全流程页面模板。全模块化开发，支持灵活分包及组件搭配组装。",
+  "author": "Kaivan Wong <kaivanwong@outlook.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/wingscloud/template-talks#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/kaivanwong/u-im.git"
+    "url": "git+https://github.com/wingscloud/template-talks.git"
   },
-  "author": "",
-  "license": "MIT"
+  "bugs": {
+    "url": "https://github.com/wingscloud/template-talks/issues"
+  }
 }
